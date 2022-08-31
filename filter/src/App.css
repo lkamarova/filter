@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.wrapper {
+  width: 75%;
+  height: auto;
+  background-color: rgb(242, 242, 242);
+  margin: 20px auto;
+  padding: 20px;
+  justify-content: center;
+}
+
+.toolbar {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.filter {
+  border: 1px solid rgb(177, 176, 170);
+  padding: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.selectedFilter {
+  background-color: rgb(203, 199, 194);
+}
+
+.wrapperImg {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.img {
+  width: 250px;
+}
